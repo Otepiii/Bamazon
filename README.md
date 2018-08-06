@@ -52,7 +52,7 @@ https://www.npmjs.com/package/tablefy
 
 # Enjoy!
 
-<img src="https://media.giphy.com/media/9Jcw5pUQlgQLe5NonJ/giphy.gif" width="700">
+<img src="https://gph.is/2J9l3fr" width="700">
 
 
 
