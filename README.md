@@ -1,8 +1,6 @@
 # Bamazon
 An Amazon-like storefront with the MySQL. The app will take in orders from customers and deplete stock from the store's inventory.
 
-<img src="https://github.com/Otepiii/Bamazon/blob/master/render1533518652858.gif" width="700">
-
 # Packages Used
  
 mysql -npm (Connection driver for mysql)
@@ -22,4 +20,13 @@ https://www.npmjs.com/package/tablefy
 1. Create a Database with table of products with item id, product name, department name, price and stock quantity.
 
 <img src="https://github.com/Otepiii/Bamazon/blob/master/table.PNG">
+
+2. Create Node application called bamazonCustomer.js. 
+
+3. Install all the the packages mentioned above.
+
+4. To run the application, open the terminal  and type in the command line : ```node bamazonCustomer.js ```
+
+<img src="https://github.com/Otepiii/Bamazon/blob/master/render1533518652858.gif" width="700">
+
 
