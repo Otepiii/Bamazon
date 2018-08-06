@@ -1,0 +1,217 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: powershell.exe
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: C:\Users\Otep\Desktop\code\homeWork\bamazon
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 120
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 50
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a url, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 597
+    content: "\e[0m\e[0K"
+  - delay: 61
+    content: "Windows PowerShell\e[0K\e[?25l\r\nCopyright (C) Microsoft Corporation. All rights reserved.\e[0K\r\n\e[0K\r\n\e[0K\e[?25h"
+  - delay: 158
+    content: "PS C:\\Users\\Otep\\Desktop\\code\\homeWork\\bamazon>\e[0K\e[49G"
+  - delay: 2814
+    content: "\e[?25l\rPS C:\\Users\\Otep\\Desktop\\code\\homeWork\\bamazon> \e[0;33;93mn\e[0m\e[0K\e[?25h"
+  - delay: 157
+    content: "\e[0;33;93mo\e[0m\e[0K"
+  - delay: 274
+    content: "\e[0;33;93md\e[0m\e[0K"
+  - delay: 193
+    content: "\e[0;33;93me\e[0m\e[0K"
+  - delay: 124
+    content: "\e[54G"
+  - delay: 248
+    content: "\e[?25l\rPS C:\\Users\\Otep\\Desktop\\code\\homeWork\\bamazon> \e[0;33;93mnode\e[0m b\e[0K\e[?25h"
+  - delay: 128
+    content: "a\e[0K"
+  - delay: 213
+    content: "m\e[0K"
+  - delay: 157
+    content: "a\e[0K"
+  - delay: 316
+    content: "z\e[0K"
+  - delay: 122
+    content: "o\e[0K"
+  - delay: 187
+    content: "n\e[0K"
+  - delay: 1000
+    content: "C\e[0K"
+  - delay: 352
+    content: "u\e[0K"
+  - delay: 117
+    content: "s\e[0K"
+  - delay: 253
+    content: "t\e[0K"
+  - delay: 594
+    content: "o\e[0K"
+  - delay: 280
+    content: "e\e[0K"
+  - delay: 439
+    content: "\e[?25l\rPS C:\\Users\\Otep\\Desktop\\code\\homeWork\\bamazon> \e[0;33;93mnode\e[0m bamazonCusto\e[0K\e[?25h"
+  - delay: 221
+    content: "m\e[0K"
+  - delay: 156
+    content: "e\e[0K"
+  - delay: 126
+    content: "r\e[0K"
+  - delay: 616
+    content: ".\e[0K"
+  - delay: 353
+    content: "j\e[0K"
+  - delay: 122
+    content: "s\e[0K"
+  - delay: 689
+    content: "\e[?25l\r\n\e[0K\e[?25h"
+  - delay: 557
+    content: "connected as id 85\e[0K\e[?25l\r\n\e[0;32m?\e[0m \e[0;1mWould you like to see what we have in stock and place an order?\e[0m (Y/n)\e[0K\e[73G\e[?25h"
+  - delay: 35
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWould you like to see what we have in stock and place an order?\e[0m (Y/n)                  ____     ______           ____\e[0K_\r\n_  ________   _____   __  __  __\e[0K\r\n                /\\  _`\\  /\\  _  \\  /'\\_/`\\/\\  _  \\/\\_____  \\ /\\  __`\\/\\ \\/\\ \\/\\ \\\e[0K\r\n                \\ \\ \\L\\ \\\\ \\ \\L\\ \\/\\      \\ \\ \\L\\ \\/____//'/'\\ \\ \\/\\ \\ \\ `\\\\ \\ \\ \\\e[0K\r\n _______  _______\\ \\  _ <'\\ \\  __ \\ \\ \\__\\ \\ \\  __ \\   //'/'  \\ \\ \\ \\ \\ \\ , ` \\ \\ \\  _______  _______\e[0K\r\n/\\______\\/\\______\\\\ \\ \\L\\ \\\\ \\ \\/\\ \\ \\ \\_/\\ \\ \\ \\/\\ \\ //'/'___ \\ \\ \\_\\ \\ \\ \\`\\ \\ \\_\\/\\______\\/\\______\\\e[0K\r\n\\/______/\\/______/ \\ \\____/ \\ \\_\\ \\_\\ \\_\\\\ \\_\\ \\_\\ \\_\\/\\_______\\\\ \\_____\\ \\_\\ \\_\\/\\_\\/______/\\/______/\e[0K\r\n                    \\/___/   \\/_/\\/_/\\/_/ \\/_/\\/_/\\/_/\\/_______/ \\/_____/\\/_/\\/_/\\/_/\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\e[?25h"
+  - delay: 1938
+    content: "\e[0;32m?\e[0m \e[0;1mWould you like to see what we have in stock and place an order?\e[0m (Y/n) y\e[0K"
+  - delay: 785
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWould you like to see what we have in stock and place an order?\e[0m \e[0;36mYes\e[0m\e[0K\r\n======================================================================================================================\e[0K\r\n|item_id|product_name                                                           |department_name|price|stock_quantity|\e[0K\r\n======================================================================================================================\e[0K\r\n|1      |Ameriwood Basics 5 Shelf Bookcase                                      |Furniture      |68.09|140           |\e[0K\r\n|2      |Cosco Vinyl Folding Chair Black                                        |Furniture      |67   |190           |\e[0K\r\n|3      |Newell 322                                                             |Office Supplies|75   |100           |\e[0K\r\n|4      |Lifetime 80176 Folding Conference Training Table, 6 Feet, White Granite|Furniture      |97.98|171           |\e[0K\r\n|5      |Xerox 1967                                                             |Office Supplies|54.25|110           |\e[0K\r\n|6      |Lenovo 17-Key USB Numeric Keypad                                       |Technology     |15   |75            |\e[0K\r\n|7      |Easy-staple paper                                                      |Office Supplies|42.42|80            |\e[0K\r\n|8      |Avaya 5420 Digital phone                                               |Technology     |25.5 |120           |\e[0K\r\n|9      |Microsoft Arc Touch Mouse                                              |Technology     |19.95|200           |\e[0K\r\n|10     |Speck Products Candyshell Flip Case                                    |Technology     |30.5 |240           |\e[0K\r\n======================================================================================================================\e[0K\r\n\e[0K\e[?25h"
+  - delay: 24
+    content: "\e[0;32m?\e[0m \e[0;1mWhat is the Item_Id of the product you would like to purchase?\e[0m\e[0K\e[66G"
+  - delay: 4405
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWhat is the Item_Id of the product you would like to purchase?\e[0m 1\e[0K\e[?25h"
+  - delay: 162
+    content: "0\e[0K"
+  - delay: 656
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWhat is the Item_Id of the product you would like to purchase?\e[0m \e[0;36m10\e[0m\e[0K\r\n\e[0;32m?\e[0m \e[0;1mHow many units of the products would you like to purchase?\e[0m\e[0K\e[62G\e[?25h"
+  - delay: 564
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mHow many units of the products would you like to purchase?\e[0m 1\e[0K\e[?25h"
+  - delay: 306
+    content: "\e[?25l\r\e[0K\e[63G\e[?25h"
+  - delay: 34
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mHow many units of the products would you like to purchase?\e[0m 10\e[0K\e[?25h"
+  - delay: 189
+    content: "0\e[0K"
+  - delay: 251
+    content: "0\e[0K"
+  - delay: 681
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mHow many units of the products would you like to purchase?\e[0m \e[0;36m1000\e[0m\e[0K\r\n\e[0K\r\n\e[0K\r\nInsufficient Quantity! Modify your order\e[0K\r\n\e[0;32m?\e[0m \e[0;1mWould you like to see what we have in stock and place an order?\e[0m (Y/n)\e[0K\e[73G\e[?25h"
+  - delay: 40
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWould you like to see what we have in stock and place an order?\e[0m (Y/n)                  ____     ______           ____\e[0K_\r\n_  ________   _____   __  __  __\e[0K\r\n                /\\  _`\\  /\\  _  \\  /'\\_/`\\/\\  _  \\/\\_____  \\ /\\  __`\\/\\ \\/\\ \\/\\ \\\e[0K\r\n                \\ \\ \\L\\ \\\\ \\ \\L\\ \\/\\      \\ \\ \\L\\ \\/____//'/'\\ \\ \\/\\ \\ \\ `\\\\ \\ \\ \\\e[0K\r\n _______  _______\\ \\  _ <'\\ \\  __ \\ \\ \\__\\ \\ \\  __ \\   //'/'  \\ \\ \\ \\ \\ \\ , ` \\ \\ \\  _______  _______\e[0K\r\n/\\______\\/\\______\\\\ \\ \\L\\ \\\\ \\ \\/\\ \\ \\ \\_/\\ \\ \\ \\/\\ \\ //'/'___ \\ \\ \\_\\ \\ \\ \\`\\ \\ \\_\\/\\______\\/\\______\\\e[0K\r\n\\/______/\\/______/ \\ \\____/ \\ \\_\\ \\_\\ \\_\\\\ \\_\\ \\_\\ \\_\\/\\_______\\\\ \\_____\\ \\_\\ \\_\\/\\_\\/______/\\/______/\e[0K\r\n                    \\/___/   \\/_/\\/_/\\/_/ \\/_/\\/_/\\/_/\\/_______/ \\/_____/\\/_/\\/_/\\/_/\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\e[?25h"
+  - delay: 2745
+    content: "\e[0;32m?\e[0m \e[0;1mWould you like to see what we have in stock and place an order?\e[0m (Y/n) n\e[0K"
+  - delay: 975
+    content: "\e[?25l\r\e[0;32m?\e[0m \e[0;1mWould you like to see what we have in stock and place an order?\e[0m \e[0;36mNo\e[0m\e[0K\r\n\e[0K\r\n\e[0K\r\nHave a nice day!\e[0K\r\n\e[0K\r\n\e[0K\r\n\e[0K\e[?25h"
+  - delay: 23
+    content: "PS C:\\Users\\Otep\\Desktop\\code\\homeWork\\bamazon>\e[0K\e[49G"
+  - delay: 3098
+    content: "\e[?25l\rPS C:\\Users\\Otep\\Desktop\\code\\homeWork\\bamazon> \e[0;33;93me\e[0m\e[0K\e[?25h"
+  - delay: 776
+    content: "\e[0;33;93mx\e[0m\e[0K"
+  - delay: 162
+    content: "\e[0;33;93mi\e[0m\e[0K"
+  - delay: 149
+    content: "\e[?25l\rPS C:\\Users\\Otep\\Desktop\\code\\homeWork\\bamazon> \e[0;32;92mexit\e[0m\e[0K\e[?25h"
+  - delay: 1601
+    content: "\e[?25l\r\n\e[0K\e[?25h"
