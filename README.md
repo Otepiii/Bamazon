@@ -4,13 +4,16 @@ An Amazon-like storefront with the MySQL. The app will take in orders from custo
 <img src="https://github.com/Otepiii/Bamazon/blob/master/render1533518652858.gif" width="700">
 
 # Packages Used
-
+ 
 mysql -npm (Connection driver for mysql)
 https://www.npmjs.com/package/mysql
+
 inquirer -npm (Interactive command line prompt to take input)
 https://www.npmjs.com/package/inquirer
+
 figlet -npm (Allows you to create ASCII Art from text)
-https://www.npmjs.com/package/figlet
+https://www.npmjs.com/package/
+
 tablefy -npm (Manage data pagination into a table)
 https://www.npmjs.com/package/tablefy
 
