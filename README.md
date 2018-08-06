@@ -50,5 +50,10 @@ https://www.npmjs.com/package/tablefy
   
   This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/Otepiii/Bamazon/blob/master/LICENSE) file for details
 
+# Enjoy!
+
+<img src="https://media.giphy.com/media/9Jcw5pUQlgQLe5NonJ/giphy.gif" width="700">
+
+
 
 
