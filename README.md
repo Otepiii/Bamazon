@@ -27,7 +27,7 @@ https://www.npmjs.com/package/tablefy
 
 4. To run the application, open the terminal  and type in the command line : ```node bamazonCustomer.js ```
 
-<img src="https://github.com/Otepiii/Bamazon/blob/master/render1533518652858.gif" width="700">
+<img src="https://github.com/Otepiii/Bamazon/blob/master/render1533518652858.gif" width="500">
 
 - As shown on the gif file. The app will ask to confirm if you wanted to make a purchase.
 
@@ -35,7 +35,7 @@ https://www.npmjs.com/package/tablefy
 
 - At checkout it will give you the total price and update the specific stock quantity.
 
-<img src="https://github.com/Otepiii/Bamazon/blob/master/render1533518772292.gif" width="700">
+<img src="https://github.com/Otepiii/Bamazon/blob/master/render1533518772292.gif" width="500">
 
 - Here is an alternate example when you order and there is not enough stock quantity for the requested order.
 
